@@ -3,8 +3,8 @@
 
 AC_PREREQ([2.63])
 AC_INIT([amhello], [1.0], [bug-report@address])
+AC_CONFIG_AUX_DIR([build-aux])
 AM_INIT_AUTOMAKE([-Wall -Werror foreign])
-AC_CONFIG_HEADERS([config.h])
 
 # Checks for programs.
 AC_PROG_CC
@@ -17,8 +17,9 @@ AC_PROG_CC
 
 # Checks for library functions.
 
-AC_CONFIG_FILES([ 
-                  Makefile
+# Output files.
+AC_CONFIG_HEADERS([src/config.h])
+AC_CONFIG_FILES([ Makefile
                   src/Makefile 
                   ])
 AC_OUTPUT
