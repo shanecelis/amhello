@@ -4,8 +4,7 @@
 int
 main(void)
 {
-    puts("Hello World!");
-    puts("This is " PACKAGE_STRING ".");
+    hello();
 
     return 0;
 }
