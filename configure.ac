@@ -26,5 +26,7 @@ AC_CHECK_FUNCS([puts])
 AC_CONFIG_HEADERS([src/config.h])
 AC_CONFIG_FILES([ Makefile
                   src/Makefile 
+                  support/Makefile
+                  support/amhello-config
                   ])
 AC_OUTPUT

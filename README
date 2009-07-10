@@ -1,1 +1,6 @@
-Run autoreconf --install
+README
+======
+
+This is the "Hello World" of autoconf projects.
+
+    $ autoreconf --install
